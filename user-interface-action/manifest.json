@@ -1,0 +1,13 @@
+{
+  "name": "user-interface-action",
+  "description": "user interface action",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "hello_extensions.png",
+    "default_title": "Click Me"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
