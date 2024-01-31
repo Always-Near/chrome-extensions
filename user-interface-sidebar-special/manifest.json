@@ -1,0 +1,19 @@
+{
+  "name": "user-interface-sidebar-special",
+  "description": "user interface sidebar special",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["sidePanel", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "globalGoogle16.png",
+    "default_title": "Click to open panel"
+  },
+  "icons": {
+    "16": "globalGoogle16.png",
+    "48": "globalGoogle48.png",
+    "128": "globalGoogle128.png"
+  }
+}

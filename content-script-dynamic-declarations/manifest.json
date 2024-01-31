@@ -1,0 +1,12 @@
+{
+  "name": "content script dynamic declarations",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "content script.",
+  "permissions": ["scripting"],
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "host_permissions": ["https://example.com/*"],
+  "action": {}
+}

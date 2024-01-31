@@ -20,7 +20,6 @@
 
 // // setBadgeBackgroundColor
 // chrome.action.onClicked.addListener(async (tab) => {
-//   console.log(generateColor());
 //   await chrome.action.setBadgeText({
 //     tabId: tab.id,
 //     text: "Hi",

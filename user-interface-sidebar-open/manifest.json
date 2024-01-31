@@ -1,0 +1,16 @@
+{
+  "name": "user-interface-sidebar-open",
+  "description": "user interface sidebar open",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["sidePanel", "tabs"],
+  "action": {
+    "default_popup": "page.html",
+    "default_icon": "globalGoogle16.png"
+  },
+  "icons": {
+    "16": "globalGoogle16.png",
+    "48": "globalGoogle48.png",
+    "128": "globalGoogle128.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "content script static declarations",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "content script.",
+  "content_scripts": [
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["content-script.js"],
+      "css": ["content-script.css"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "content script inject programmatically",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "content script.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "action": {}
+}
