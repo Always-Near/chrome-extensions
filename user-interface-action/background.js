@@ -1,6 +1,34 @@
 // // onClicked
 // chrome.action.onClicked.addListener(() => console.log("on action click"));
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 // // setBadgeText
 // chrome.action.onClicked.addListener(async (tab) => {
 //   const prevText = await chrome.action.getBadgeText({ tabId: tab.id });
